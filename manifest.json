@@ -1,0 +1,39 @@
+{
+  "name": "BCC Dashboard — Jhon",
+  "short_name": "BCC",
+  "description": "Dashboard académico — Basque Culinary Center",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f1117",
+  "theme_color": "#3A4A5C",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%233A4A5C'/><text x='50%' y='58%' font-size='100' text-anchor='middle' dominant-baseline='middle' font-family='serif'>🍽</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='100' fill='%233A4A5C'/><text x='50%' y='58%' font-size='280' text-anchor='middle' dominant-baseline='middle' font-family='serif'>🍽</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Hoy",
+      "url": "/index.html#hoy",
+      "description": "Panel del día"
+    },
+    {
+      "name": "Tareas",
+      "url": "/index.html#tareas",
+      "description": "Mis tareas"
+    }
+  ]
+}
